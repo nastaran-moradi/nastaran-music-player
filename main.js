@@ -83,7 +83,7 @@ function loadSong(songIndex){
     document.querySelector('.cover').style.backgroundImage = `url(${song.thumbnail})`
     main.songName.innerText = song.songName
     main.artistName.innerText = song.artistName
-    main.audio.setAttribute('src','./public/'+song.audio)
+    main.audio.setAttribute('src','../public/'+song.audio)
     main.seekbar.setAttribute('value','0')
     main.seekbar.setAttribute('min','0')
     main.seekbar.setAttribute('max','0')
